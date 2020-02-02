@@ -25,7 +25,7 @@
 * content
     ```
     > mpi
-        > backtrakcing_mpi.c    # Code          
+        > backtrakcing_mpi.c    # code          
         > hostfile              # declare the host in cluster    
     ```
     
@@ -45,7 +45,7 @@
 * content
     ```
     > mpi_pthread
-        > backtrakcing_mpi_ptherad.c    # Code          
+        > backtrakcing_mpi_ptherad.c    # code          
         > hostfile                      # declare the host in cluster    
     ```
     
@@ -65,10 +65,10 @@
 * content
     ```
     > mpi_pthread_cuda
-        > compile.sh    # Compuile command
+        > compile.sh    # compile command
         > hostfile      # declare the host in cluster    
-        > main.c        # Code launch in host
-        > kernel.cu     # Code launch in kernel
+        > main.c        # code launch in host
+        > kernel.cu     # code launch in kernel
     ```
     
 * Solving N-queen problem in backtracking with MPI, which can distribute the computing in multiple host. In each host, it will also use Pthread to launch as many thread as each host can. As in each thread, it will launch CUDA code to assist computing.
